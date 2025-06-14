@@ -34,10 +34,10 @@ net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
 credentials_path = r"C:\Users\Nithesh\Desktop\Hackprix\android-eye-crime-detectiom-96e66e0abcd6.json"
 
 # Twilio credentials
-twilio_account_sid = 'my_sid'
-twilio_auth_token = 'my_auth_token '
-sender_number = 'sender_no'  # Twilio sandbox number
-recipient_number = 'recipient_no'  # Replace with the actual recipient's number
+twilio_account_sid = my_sid #secret sid in string should be given
+twilio_auth_token = my_auth_token #secret token in string should be given
+sender_number = sender_no  # Twilio sandbox number in string should be given
+recipient_number = recipient_no  # Replace with the actual recipient's number in string
 
 # Initialize Google Drive service
 credentials = service_account.Credentials.from_service_account_file(credentials_path)
